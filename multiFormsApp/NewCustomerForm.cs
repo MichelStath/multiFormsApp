@@ -18,7 +18,7 @@ namespace multiFormsApp
             InitializeComponent();           
         }
 
-        static string DbLocation = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "../../multiFormsDB.mdb");
+        static string DbLocation = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "multiFormsDB.mdb");
         OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.Jet.OLEDB.4.0; Data Source =" + DbLocation + "; Persist Security Info=True");
         private void clearTB()
         {
