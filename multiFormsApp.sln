@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32126.315
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multiFormsApp", "multiFormsApp\multiFormsApp.csproj", "{A6C0AEEF-3BB0-4B33-8284-9940CB7EA3F3}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{1276AB7E-5404-41DB-AFB5-3B3FE8A98254}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{A6C0AEEF-3BB0-4B33-8284-9940CB7EA3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6C0AEEF-3BB0-4B33-8284-9940CB7EA3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6C0AEEF-3BB0-4B33-8284-9940CB7EA3F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1276AB7E-5404-41DB-AFB5-3B3FE8A98254}.Debug|Any CPU.ActiveCfg = Debug
+		{1276AB7E-5404-41DB-AFB5-3B3FE8A98254}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -68,6 +68,9 @@ namespace multiFormsApp
         //ΠΕΛΑΤΕΣ BUTTON
         private void button1_Click(object sender, EventArgs e)
         {
+
+            MessageBox.Show(DbLocation);
+            MessageBox.Show(AppDomain.CurrentDomain.BaseDirectory.ToString());
             DisplayAllCustomers();
         }
 
